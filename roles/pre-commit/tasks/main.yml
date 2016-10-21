@@ -1,0 +1,11 @@
+---
+# file: roles/pre-commit/roles/main.yml
+
+- name: Ensure Python pip is installed
+  apt: name=python-pip state=present
+
+- name: Install pre-commit Python package
+  pip: name=pre-commit
+
+- name: Ensure openssl is installed for ansible-lint plugin
+  apt: name=libssl-dev state=present
