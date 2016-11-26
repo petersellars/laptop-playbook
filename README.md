@@ -27,6 +27,9 @@ group that does not have to enter a password.
 
 ```ansible-playbook -i "localhost,", -c local machine.yml```
 
+## TO-DO
+* Create [Vagrant](https://vagrantup.com) machine to test the playbook
+
 [1]: https://www.ansible.com/
 [2]: http://pre-commit.com/
 [3]: https://github.com/willthames/ansible-lint 
