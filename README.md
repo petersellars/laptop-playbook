@@ -18,6 +18,9 @@ whenever you clone this project.
 Currently this repository uses the following pre-commit hook:
 * [ansible-lint][3]
 
+## Install requirements from Ansible Galaxy
+```sudo ansible-galaxy install -r requirements.yml```
+
 ## Running this playbook
 The playbook utilises the `become: true` escalated privilege and is run using a user in the `sudo`
 group that does not have to enter a password. 

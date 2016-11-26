@@ -6,3 +6,5 @@
     - pre-commit
     - intellij
     - gvm
+    - { role: andrewrothstein.packer,
+              packer_ver: '0.12.0' }
